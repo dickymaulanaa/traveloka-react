@@ -1,6 +1,10 @@
+.contentPartner{
+    width: 70%;
+}
 .partner-bus{
     list-style-type: none;
     margin: 10px;
+    
 }
 .partner-travel{
     list-style-type: none;
@@ -9,4 +13,12 @@
 .list-partner{
     display: flex;
     flex-wrap: wrap;
+}
+.desc-text{
+    color: #354149;
+    font-size: 16px;
+    line-height: 24px
+}
+.pembayaran{
+    width:calc((100% / 7) - 3px)
 }

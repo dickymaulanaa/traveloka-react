@@ -45,33 +45,34 @@ const PartnerTravel = () => {
 
     return <>
         <Container className="py-4">
-            <Row className="d-flex justify-content-center">
-                <Col md={4}>
-                    <Card style={{ width: '21rem', border: "none" }}>
-                        <Card.Body>
-                            <Card.Title>Partner Travel</Card.Title>
-                            <Card.Title className="mb-2">Operator Travel Favorit Anda</Card.Title>
-                            <Card.Text>
-                                Baik untuk liburan atau pulang ke rumah, kini Anda bisa pesan tiket travel favorit dengan lebih mudah bersama kami.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} className="list-partner">
-                <ul className='partner-bus d-flex flex-wrap'>
-                   {travel.map((el, i) =>{
-                       return (
-                        <li key={i} className="px-3 py-3">
-                            <img src={el} alt="imge"/>
-                        </li>
-                       )
-                   })}
-                   
-                </ul>
-                 
-                </Col>
-            </Row>
+            <div className="contentPartner d-block mx-auto border-bottom">
+                <Row className="d-flex justify-content-center">
+                    <Col md={4}>
+                        <Card style={{ width: '21rem', border: "none" }}>
+                            <Card.Body className="ps-0">
+                                <Card.Title><h3>Partner Travel</h3></Card.Title>
+                                <Card.Title className="mb-2 mt-3"><h5>Operator Travel Favorit Anda</h5></Card.Title>
+                                <Card.Text className="desc-text">
+                                    Baik untuk liburan atau pulang ke rumah, kini Anda bisa pesan tiket travel favorit dengan lebih mudah bersama kami.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col md={8} className="list-partner ps-5">
+                        <ul className='partner-bus d-flex flex-wrap m-0'>
+                            {travel.map((el, i) => {
+                                return (
+                                    <li key={i} className="px-3 py-3">
+                                        <img src={el} alt="imge" />
+                                    </li>
+                                )
+                            })}
 
+                        </ul>
+
+                    </Col>
+                </Row>
+            </div>
         </Container>
     </>
 }
