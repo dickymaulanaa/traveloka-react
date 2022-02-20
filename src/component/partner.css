@@ -1,0 +1,12 @@
+.partner-bus{
+    list-style-type: none;
+    margin: 10px;
+}
+.partner-travel{
+    list-style-type: none;
+    margin: 10px;
+}
+.list-partner{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.content{
+    background-image: linear-gradient(rgb(81, 186, 235), rgb(56, 97, 233));
+    height: 350px;
+}
+
+.gambar{
+    margin: 0 auto;
+    width: 550px;
+
+}
+.inputBox{
+    width: 70%;
+    height: 230px;
+    box-shadow: 1px 1px 6px rgb(197, 197, 197);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.label-form{
+    color: rgba(3,18,26,1.00);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: MuseoSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.reverse img{
+    background-color: #1ba0e2;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
