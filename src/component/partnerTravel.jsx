@@ -45,8 +45,8 @@ const PartnerTravel = () => {
 
     return <>
         <Container className="py-4">
-            <div className="contentPartner d-block mx-auto border-bottom">
-                <Row className="d-flex justify-content-center">
+            <div className="contentPartner d-block mx-auto border-bottom ">
+                <Row className="d-flex justify-content-center mb-5">
                     <Col md={4}>
                         <Card style={{ width: '21rem', border: "none" }}>
                             <Card.Body className="ps-0">
@@ -60,13 +60,13 @@ const PartnerTravel = () => {
                     </Col>
                     <Col md={8} className="list-partner ps-5">
                         <ul className='partner-bus d-flex flex-wrap m-0'>
-                            {travel.map((el, i) => {
-                                return (
+                            {travel.map((el, i) => 
+                               (
                                     <li key={i} className="px-3 py-3">
                                         <img src={el} alt="imge" />
                                     </li>
                                 )
-                            })}
+                            )}
 
                         </ul>
 

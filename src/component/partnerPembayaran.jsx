@@ -24,7 +24,7 @@ const PartnerPembayaran = () => {
     return <>
         <Container className="py-4">
             <div className="contentPartner d-block mx-auto border-bottom">
-                <Row className="d-flex justify-content-center">
+                <Row className="d-flex justify-content-center mb-3">
                     <Col md={3}>
                         <Card style={{ width: '20rem', border: "none" }}>
                             <Card.Body className="ps-0">

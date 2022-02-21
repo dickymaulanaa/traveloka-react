@@ -1,0 +1,11 @@
+.footerr{
+    background-color: #1b1b1b;
+    color: white;
+    height: 400px;
+}
+.menuFooter{
+    width: 85%;
+}
+.row1{
+    display: grid;
+}

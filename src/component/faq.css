@@ -1,0 +1,41 @@
+.faq{
+    width: 70%;
+}
+.itemFaq{
+    border-top: 1px solid rgb(218, 218, 218) !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+
+.tabel-img-jkt{
+    background-image: url(https://ik.imagekit.io/tvlk/image/imageResource/2018/11/12/1541996886324-c76ff39246648dc96d859d5253b4531e.jpeg?tr=q-75,w-290);
+    background-size: 350px;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.title{
+    font-size: 14px;
+    font-weight: 400;
+}
+.tbl-head{
+    font-size: 18px;
+    font-weight: 400;
+}
+.tbl-city{
+    font-weight: 700;
+}
+
+.plan-trip{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+    font-family: MuseoSans, sans-serif;
+}
+

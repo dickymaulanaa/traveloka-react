@@ -4,6 +4,10 @@ import PartnerBus from "../component/partnerBus"
 import PartnerTravel from "../component/partnerTravel"
 import Banner from "../component/banner"
 import PartnerPembayaran from "../component/partnerPembayaran"
+import Benefit from "../component/benefit"
+import Destination from "../component/destination"
+import Faq from "../component/faq"
+import Footer from "../component/footer"
 
 const Home = () => {
     return <>
@@ -21,7 +25,12 @@ const Home = () => {
                 <PartnerBus />
                 <PartnerTravel />
                 <PartnerPembayaran/>
-                
+                <Benefit/>
+                <Destination/>
+                <Faq/>
+            </Container>
+            <Container fluid className="p-0">
+            <Footer/>
             </Container>
             
         </Container>

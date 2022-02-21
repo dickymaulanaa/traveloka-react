@@ -74,7 +74,7 @@ const PartnerBus = () => {
     return <>
         <Container className="py-4 mt-5">
             <div className="contentPartner d-block mx-auto border-bottom">
-                <Row>
+                <Row className="mb-5">
                     <Col md={4}>
                         <Card style={{ width: '21rem', border: "none", padding:"0px"}}>
                             <Card.Body className="ps-0">

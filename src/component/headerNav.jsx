@@ -1,4 +1,4 @@
-import { Col, Container, Nav, Navbar, NavDropdown, Offcanvas, Row, Button, Form, FormControl, DropdownButton, Dropdown } from 'react-bootstrap'
+import { Col, Container,Navbar, Offcanvas, Row, Button, DropdownButton, Dropdown } from 'react-bootstrap'
 import "./header.css"
 
 
@@ -22,25 +22,107 @@ const HeaderNav = () => {
                                         <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/3/30bf6c528078ba28d34bc3e37d124bdb.svg"
                                             alt="icon" />
                                         <Navbar.Offcanvas id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
-                                            placement="start">
-                                            <Offcanvas.Body>
-                                                <Nav className="justify-content-start flex-grow-1 pe-3">
-                                                    <Nav.Link href="#action1">Home</Nav.Link>
-                                                    <Nav.Link href="#action2">Link</Nav.Link>
-                                                    <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
-                                                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                                        <NavDropdown.Divider />
-                                                        <NavDropdown.Item href="#action5">
-                                                            Something else here
-                                                        </NavDropdown.Item>
-                                                    </NavDropdown>
-                                                </Nav>
-                                                <Form className="d-flex">
-                                                    <FormControl type="search" placeholder="Search" className="me-2"
-                                                        aria-label="Search" />
-                                                    <Button variant="outline-success">Search</Button>
-                                                </Form>
+                                            placement="start" style={{width:"20%"}}>
+                                            <Offcanvas.Body >
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2" >
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/4/4c2b56742d3432cbc9a0a2600fbc8bb5.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Pesawat</span>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/3/36bca62f8840da5ea3670bf693f90f90.svg" alt="icon" /></span>
+                                                    <span className="m-3">Pesawat & Hotel</span>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/e/e4b54ba9c9879a7598bb979fc21b9368.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Kereta Api</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/3/301c3038b8bc837164fca384096404a6.svg" alt="icon" /></span>
+                                                    <span className="m-3">JR Pass</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/a2ccf7da2502e971c726b7855ed5c47d.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Bus & Travel</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/c51ec07e3f7fb509b246825c6b7c6d6d.svg" alt="icon" /></span>
+                                                    <span className="m-3">Antar Jembut Bandara</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/4/44b891a96bfa52b48bbc541a4b1bb226.svg" alt="icon" /></span>
+                                                    <span className="m-3">Rental Mobil</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/8f18b8fb015f1b7e4213647f51f964e3.svg" alt="icon" /></span>
+                                                    <span className="m-3">Kereta Bandara</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/6/60d9cc111177e91ae2313968ffb9d930.svg" alt="icon" /></span>
+                                                    <span className="m-3">Status Penerbangan</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/0/0d4d263a506fbeb97d7c863a1c85ffba.svg" alt="icon" /></span>
+                                                    <span className="m-3">Notifikasi Harga</span>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item href="#" className="pe-0 pt-2" >
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/4/4c2b56742d3432cbc9a0a2600fbc8bb5.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Pesawat</span>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/3/36bca62f8840da5ea3670bf693f90f90.svg" alt="icon" /></span>
+                                                    <span className="m-3">Pesawat & Hotel</span>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/e/e4b54ba9c9879a7598bb979fc21b9368.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Kereta Api</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/3/301c3038b8bc837164fca384096404a6.svg" alt="icon" /></span>
+                                                    <span className="m-3">JR Pass</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/a2ccf7da2502e971c726b7855ed5c47d.svg" alt="icon" /></span>
+                                                    <span className="m-3">Tiket Bus & Travel</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/c/c51ec07e3f7fb509b246825c6b7c6d6d.svg" alt="icon" /></span>
+                                                    <span className="m-3">Antar Jembut Bandara</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/4/44b891a96bfa52b48bbc541a4b1bb226.svg" alt="icon" /></span>
+                                                    <span className="m-3">Rental Mobil</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/8/8f18b8fb015f1b7e4213647f51f964e3.svg" alt="icon" /></span>
+                                                    <span className="m-3">Kereta Bandara</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/6/60d9cc111177e91ae2313968ffb9d930.svg" alt="icon" /></span>
+                                                    <span className="m-3">Status Penerbangan</span>
+                                                </Dropdown.Item>
+
+                                                <Dropdown.Item href="#" className="pe-0 pt-2">
+                                                    <span className="py-3"><img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/0/0d4d263a506fbeb97d7c863a1c85ffba.svg" alt="icon" /></span>
+                                                    <span className="m-3">Notifikasi Harga</span>
+                                                </Dropdown.Item>
+
+
+
+
                                             </Offcanvas.Body>
                                         </Navbar.Offcanvas>
                                     </Container>

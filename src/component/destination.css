@@ -1,0 +1,50 @@
+.infoCov{
+    background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2021/07/21/1626863847187-4fe80dc781bfbf9a656be49265a65500.png?tr=q-75");
+    width: 70%;
+    min-height: 420px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 10px 0 rgb(3 18 26 / 15%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+.infoCov h4{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.infoCov p{
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255,255,255,.75);
+    width: 55%;
+    font-family: MuseoSans, sans-serif;
+    margin-top: 3%;
+
+}
+.label-destinasi{
+    width: 70%;
+}
+
+.img-destination{
+    width: 285px;
+    height: 158px;
+    cursor: pointer;
+
+}
+.img-destination img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.7);
+}
+.tiket{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
